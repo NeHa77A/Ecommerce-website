@@ -482,6 +482,54 @@
     float: right;
     text-align: center;
 }
+.banner2{
+    width: 100%;
+    height: 50vh;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-bottom: 40px;
+    background-image: url(image/banner3.jpg);
+}
+.Bannercontent2{
+    width: 50%;
+    float: right;
+    padding-top: 20px;   
+}
+#banh2{
+    color: rgb(12, 12, 125);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bannerbtn2{
+    cursor: pointer;
+    color: rgb(226, 234, 234);
+    width: 170px;
+}
+.bannerbtn2 button:hover{
+    background-color: rgb(107, 232, 141);
+    color: rgb(6, 6, 6);
+}
+@media screen and (max-width:600px){
+    .banner2{
+        color: antiquewhite;
+    }
+    .Bannercontent2{
+        color: antiquewhite;
+        width: auto;
+        float: left;
+    }
+    .Bannercontent2 p{
+        font-size: small;
+        color: antiquewhite;  
+    }
+    #banh2{
+        font-size: medium;
+    }
+    .bannerbtn2{
+        font-size: 20px;
+        width: 100px;
+        height: 20px;
+    }
+}
 
 
 

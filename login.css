@@ -1,0 +1,123 @@
+.login{
+    width: 100%;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#side1{
+    background-color: yellowgreen;
+    height: 60vh;
+    border-radius: 5px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+#side1 h3{
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 150px;
+    align-items: center;
+    text-align: center;
+}
+#side1 p{
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+#btn{
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+}
+#side2{
+    background-color: aliceblue;
+    border-radius: 5px;
+    
+    align-items: center;
+    text-align: center;
+}
+#side2 h3{
+    margin-top: 50px;
+    color: rgb(17, 17, 116);
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgb(56, 54, 54);
+    font-size: xx-large;
+}
+#side2 .inp{
+    margin-top: 32px;
+}
+#side2 input{
+    width: 400px;
+    height: 36px;
+    margin-top: 20px;
+    align-items: center;
+}
+#side2 p{
+    margin-top: 20px;
+    cursor: pointer;
+}
+#side2 .icons i{
+    margin-left: 10px;
+    cursor: pointer;
+    color: rgb(22, 22, 185);
+    font-size: large;
+}
+#login{
+    margin-top: 10px;
+}
+#login button{
+    width: 200px;
+    height: 32px;
+    color: black;
+    background-color: yellowgreen;
+    border: none;
+    font-weight: bold;
+}
+@media screen and (max-width:992px){
+    #side2 input{
+        width: 300px;
+    }
+}
+@media screen and (max-width:499px){
+    #side2 input{
+        width: 200px;
+    }
+}
+.singup{
+    margin: 20px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#side3{
+    width: 50%;
+    float: left;
+}
+#side4{
+    width: 50%;
+    float: right;
+}
+#side4 h3{
+    margin-top: 30px;
+    color: rgb(17, 17, 116);
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgb(56, 54, 54);
+    font-size: xx-large;
+}
+#side4 .inp{
+    margin-top: 20px;
+}
+#side4 .inp input{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+
+ 
+
+
