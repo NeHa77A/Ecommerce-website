@@ -347,11 +347,12 @@
 }
 #product-cards{
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 30px;
+    margin-top: 60px;
 
 }
 #product-cards .pro-card{
     box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    margin-top: 30px;
 }
 #product-cards .card-body{
     margin-left: 20px;
@@ -368,6 +369,72 @@
     margin-top: 20px;
     color: rgb(92, 14, 164);
     text-shadow: 1px 1px 1px black;
+}
+#product-cards h4{
+    color: rgb(21, 6, 117);
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+#product-cards h5 span{
+    float: right;
+    margin-right: 20px;
+    color: rgb(8, 8, 163);
+    cursor: pointer;
+}
+#viewmorebtn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 30px;
+    width: 200px;
+    height: 30px;
+    color: rgb(8, 8, 163);
+    letter-spacing: 5px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid rgb(8, 8, 163);
+    transition: 0.5s ease;
+}
+#viewmorebtn:hover{
+    background-color: rgb(8, 8, 163);
+    color: aliceblue;
+}
+#offer{
+    margin-top: 50px;
+}
+#offer i{
+    font-size: 40px;
+    color: #1c1c50;
+}
+#footer{
+    padding: 0 0 30px 0;
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: greenyellow;
+}
+#footer .footer-top{
+    padding: 60px 0 30px;
+    background: greenyellow;
+    color: black;
+}
+#footer .footer-top .footer-contact h3{
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+#footer .footer-top .footer-contact h4{
+    font-size: 22px;
+    margin: 0 0 300px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .footer-top .footer-contact p{
+    font-size: 14px;
+    margin: 0;
+    color: black;
+    line-height: 1;
+    font-weight: 700;
 }
 
 
