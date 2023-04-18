@@ -492,6 +492,7 @@
     margin-left: 10px;
     padding-bottom: 40px;
     background-image: url(image/banner3.jpg);
+    background-size: cover;
 }
 .Bannercontent2{
     width: 50%;
@@ -513,19 +514,21 @@
 }
 @media screen and (max-width:600px){
     .banner2{
-        color: antiquewhite;
+        color: black;
     }
     .Bannercontent2{
-        color: antiquewhite;
+        color: black;
         width: auto;
         float: left;
+        margin-top: 25%;
     }
     .Bannercontent2 p{
         font-size: small;
-        color: antiquewhite;  
+        color: rgb(42, 42, 6);  
     }
     #banh2{
         font-size: medium;
+        color: yellow;
     }
     .bannerbtn2{
         font-size: 20px;
